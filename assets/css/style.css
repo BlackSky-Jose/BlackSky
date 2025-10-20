@@ -1720,7 +1720,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box img { width: 120px; }
 
-  .info-content .name { margin-bottom: 15px; }
+  .info-content .name { margin-bottom: 0px; }
+  .info-content .name1 { margin-bottom: 10px; }
 
   .info-content .title { padding: 5px 18px; }
 
@@ -2217,6 +2218,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   .avatar-box img { width: 150px; }
 
   .info-content .name {
+    white-space: nowrap;
+    text-align: center;
+  }
+  .info-content .name1 {
+    color: white;
+    font-size: 12px;
     white-space: nowrap;
     text-align: center;
   }
